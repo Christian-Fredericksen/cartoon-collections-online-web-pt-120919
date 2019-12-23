@@ -1,9 +1,13 @@
 def roll_call_dwarves(dwarves)
   i = 0 
   while i < dwarves.length 
+<<<<<<< HEAD
     dwarves.each_with_index { |item, index|
       puts "#{(index + 1)} #{item}"}
     i += 1 
+=======
+    puts "#{dwarves.each_with_index}"
+>>>>>>> 1b4d7f269be105a2aab395ba5033374d52f5a62e
   end
 end
 
